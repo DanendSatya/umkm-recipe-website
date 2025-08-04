@@ -15,7 +15,7 @@ export default async function RecipeDetailPage({ params }: RecipePageProps) {
   // Simulate API call dengan delay
   await new Promise((resolve) => setTimeout(resolve, 100))
 
-  const recipe = await getRecipeById(recipeId)
+  const recipe = getRecipeById(recipeId)
 
   // Handle 404 jika resep tidak ditemukan
   if (!recipe) {
