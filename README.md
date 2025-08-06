@@ -7,7 +7,6 @@ Website UMKM untuk berbagi resep makanan tradisional dan modern Indonesia.
 - 🍽️ **Koleksi Resep Lengkap** - 15 resep tradisional Indonesia dengan gambar asli
 - 🔍 **Pencarian Interaktif** - Cari resep berdasarkan nama, masakan, atau tingkat kesulitan
 - 📱 **Responsive Design** - Optimal di desktop, tablet, dan mobile
-- 📝 **Blog System** - Artikel dan tips seputar UMKM kuliner
 - 🎨 **Atomic Design** - Struktur komponen yang terorganisir
 - ⚡ **Next.js 15** - Performance optimal dengan App Router
 - 🎯 **SEO Optimized** - Metadata dinamis dan static generation
@@ -20,32 +19,8 @@ Website UMKM untuk berbagi resep makanan tradisional dan modern Indonesia.
 - **Language**: TypeScript
 - **Architecture**: Atomic Design Pattern
 
-## Instalasi
-
-1. Clone repository:
-\`\`\`bash
-git clone <repository-url>
-cd umkm-recipe-website
-\`\`\`
-
-2. Install dependencies:
-\`\`\`bash
-npm install
-\`\`\`
-
-3. Jalankan development server:
-\`\`\`bash
-npm run dev
-\`\`\`
-
-4. Buka browser dan akses:
-\`\`\`
-http://localhost:3000
-\`\`\`
-
 ## Struktur Project
 
-\`\`\`
 ├── app/                    # App Router pages
 │   ├── recipes/           # Recipe pages
 │   ├── about/            # About page
@@ -60,7 +35,6 @@ http://localhost:3000
 │   └── utils.ts         # Helper functions
 └── public/              # Static assets
     └── images/          # Recipe images
-\`\`\`
 
 ## Halaman Tersedia
 
@@ -77,22 +51,6 @@ http://localhost:3000
 - ✅ Loading states
 - ✅ Responsive design
 
-## Development
-
-\`\`\`bash
-# Development
-npm run dev
-
-# Build production
-npm run build
-
-# Start production server
-npm start
-
-# Lint code
-npm run lint
-\`\`\`
-
 ## Kontribusi
 
 1. Fork repository
@@ -100,7 +58,3 @@ npm run lint
 3. Commit changes
 4. Push ke branch
 5. Buat Pull Request
-
-## License
-
-MIT License - lihat file LICENSE untuk detail.
